@@ -1,0 +1,52 @@
+# QR Code Generator in Python
+# Project Description
+_2025_07_25
+
+I developed a Python-based QR code generator as my first Python project, demonstrating foundational programming skills and an understanding of digital verification tools—a core component of modern cybersecurity workflows. 
+This utility creates QR codes for various types of data (URLs, text, contact information), showcasing how simple code can enable secure, fast, and versatile information sharing.
+
+**Features**
+
+PROJECT SETUP:
+
+1. Created a Python environment and project structure from scratch.
+
+2. Library Integration: Utilized essential Python libraries (e.g., qrcode, Pillow) for QR code generation and image handling.
+
+3. Custom Functions: Implemented functions to programmatically generate and save QR codes in multiple formats.
+
+4. User Interface: Designed a simple, user-friendly command-line interface for easy interaction.
+
+5. Educational Value: Explored the applications of QR codes in digital verification, marketing, product tracking, and event management—all relevant to cybersecurity use cases like secure access and asset tracking.
+
+**Applications in Cybersecurity**
+
+QR codes are widely used for secure information sharing, authentication, and digital asset tracking—making them relevant for anyone interested in cybersecurity, digital verification, and 
+secure communication methods. This project demonstrates practical Python skills and an understanding of how digital tools can enhance security workflows.
+
+**Skills Demonstrated:**
+
+1. Python Programming
+
+2. Library Management
+
+3. Functional Coding
+
+4. User Interface Design
+
+**Understanding of Digital Verification Methods**
+
+CODE EXAMPLE:
+
+import qrcode
+
+def generate_qr(data, filename="qrcode.png"):
+    img = qrcode.make(data)
+    img.save(filename)
+    print(f"QR code saved as {filename}")
+
+# Example usage
+generate_qr("https://github.com/yourusername/qr-generator")
+
+**HOW TO RUN**
+
